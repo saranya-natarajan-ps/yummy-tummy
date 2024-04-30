@@ -5,45 +5,175 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>-->
+        crossorigin="anonymous"></script>
     <title>Yummy Tummy</title>
 </head>
 
 <body>
-    <header>
-        <div class="banner_img"><img src="images/yummytummy_banner.png" alt="yummytummy"></div>
-    </header>
-    <section>
-        <h3> Yummy Delicious Food</h3>
-        <!--<p>Delicious meals are tasty, appetizing, scrumptious, yummy, mouth-watering, fit for a
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div>
+                <a class="navbar-brand" href="home.html"><img src="images/ytbanner.png" alt="yummytummy"
+                        class="header_logo"></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+
+
+                </div>
+
+
+                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="products_sweets.html">Sweets</a></li>
+                                <li><a class="dropdown-item" href="product_savouries.html">Savouries</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <header>
+            <!--<div class="header_logo"><img src="images/ytbanner.png" alt="yummytummy"></div>-->
+            <div id="demo" class="m-4 carousel slide" data-bs-ride="carousel" style="width: 96%;">
+
+
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner banner_style">
+                    <div class="carousel-item active">
+                        <img src="images/banner1.jpg" alt="banner1" class="d-block" style="width: 100%;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/banner2.jpg" alt="banner2" class="d-block" style="width: 100%;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/banner3.jpg" alt="banner3" class="d-block" style="width: 100%;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/banner4.jpg" alt="banner4" class="d-block" style="width: 100%;">
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+
+        </header>
+
+        <section>
+            <h3> Yummy Delicious Food</h3>
+            <!--<p>Delicious meals are tasty, appetizing, scrumptious, yummy, mouth-watering, fit for a
             king, delightful, lovely, wonderful, pleasant, enjoyable, appealing, enchanting, charming and highly
             pleasant to the taste.</p>-->
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius arcu at auctor fermentum.
-            Suspendisse urna est, varius sed malesuada non, placerat at ex. Nullam porttitor ullamcorper fringilla.
-            Aliquam rhoncus, nisl eu interdum imperdiet, nisl lorem viverra nibh, in gravida erat elit at urna.
-            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec gravida
-            nisl in massa molestie interdum. Morbi imperdiet nec diam eget pretium. Fusce hendrerit vulputate tincidunt.
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius arcu at auctor fermentum.
+                Suspendisse urna est, varius sed malesuada non, placerat at ex. Nullam porttitor ullamcorper fringilla.
+                Aliquam rhoncus, nisl eu interdum imperdiet, nisl lorem viverra nibh, in gravida erat elit at urna.
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec
+                gravida
+                nisl in massa molestie interdum. Morbi imperdiet nec diam eget pretium. Fusce hendrerit vulputate
+                tincidunt.
 
-        </p>
-        <p>Nunc id quam orci. Nullam in arcu lorem. Suspendisse dui leo, euismod vel convallis ut, pharetra ut metus.
-            Integer in lacus sapien. Pellentesque eu facilisis ante, eget vulputate tellus. Praesent quis aliquam
-            ligula, sed aliquam nunc. Donec convallis porttitor diam, faucibus malesuada justo placerat a. Nam nec metus
-            non ante pellentesque dignissim vel eget metus. Quisque accumsan placerat elit, vitae viverra lorem
-            consectetur sit amet. Maecenas fermentum eleifend lacus fringilla posuere. Nullam fermentum elit mauris, sed
-            maximus diam interdum in. Sed ut lacus quis lectus aliquet mollis. Maecenas ac sodales justo, quis sodales
-            libero. Nullam metus tortor, iaculis non leo egestas, fringilla euismod quam. Aenean hendrerit ante non
-            lacus accumsan venenatis.</p>
-    </section>
-    <nav class="bullets">
-        <ul>
-            <li><a href="#">Sweets</a></li>
-            <li><a href="#">Main Course</a></li>
-        </ul>
-    </nav>
+            </p>
+            <p>Nunc id quam orci. Nullam in arcu lorem. Suspendisse dui leo, euismod vel convallis ut, pharetra ut
+                metus.
+                Integer in lacus sapien. Pellentesque eu facilisis ante, eget vulputate tellus. Praesent quis aliquam
+                ligula, sed aliquam nunc. Donec convallis porttitor diam, faucibus malesuada justo placerat a. Nam nec
+                metus
+                non ante pellentesque dignissim vel eget metus. Quisque accumsan placerat elit, vitae viverra lorem
+                consectetur sit amet. Maecenas fermentum eleifend lacus fringilla posuere. Nullam fermentum elit mauris,
+                sed
+                maximus diam interdum in. Sed ut lacus quis lectus aliquet mollis. Maecenas ac sodales justo, quis
+                sodales
+                libero. Nullam metus tortor, iaculis non leo egestas, fringilla euismod quam. Aenean hendrerit ante non
+                lacus accumsan venenatis.</p>
+        </section>
+        <nav>
+            <ul>
+                <li>Sweets</li>
+                <li>Savouries</li>
+            </ul>
+        </nav>
+
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+            <!-- Section: Social media -->
+
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+            <section>
+                <div class="container text-center text-md-start mt-5 pt-2">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Yummy Tummy
+                            </h6>
+                            <p>
+
+                                +91-8056070895
+                            </p>
+                            <p>support@yummutummy.in</p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Products
+                            </h6>
+                            <p>
+                                <a href="products_sweets.html" class="text-reset">Sweets</a>
+                            </p>
+                            <p>
+                                <a href="products_savouries.html" class="text-reset">Savouries</a>
+                            </p>
+
+                        </div>
+                        <!-- Grid column -->
+
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2024 Copyright:
+                <a class="text-reset fw-bold" href="#">www.yummytummy.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </div>
 </body>
 
 </html>
