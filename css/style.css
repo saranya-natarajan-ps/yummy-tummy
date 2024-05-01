@@ -22,7 +22,8 @@ margin-right: auto;
 
 
 }
-.hover_change >p>a{
+.hover_change >p >a{
     
 text-decoration:none;
+color: brown;
 }
