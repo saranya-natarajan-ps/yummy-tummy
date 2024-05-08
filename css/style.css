@@ -1,29 +1,15 @@
-/*.header_logo img{
-   
-}
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
-.list_nav ul >li >a{
-    text-decoration: none;
-}
-.list_nav ul >li >a:hover{
-    text-decoration: underline;
-    color:brown;
-}*/
+
 .list_nav ul >li {
     float: left;
 }
+
 .banner_style{
     display: block;
     margin-left: auto;
     margin-right: auto;
-
-
 }
-.hover_change >p >a{
-    
+
+.hover_change > p > a{
 text-decoration:none;
 color: brown;
 }
@@ -55,4 +41,9 @@ color: brown;
 {
     margin-left: 0;
     margin-right: 0;
+}
+.texthover:hover{
+     
+        text-decoration: underline;
+    
 }
